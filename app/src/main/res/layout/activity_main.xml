@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.saurabh.myapplication.MainActivity"
+    android:background="@drawable/background"
+    >
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Counter"
+        android:layout_marginTop="8dp"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/a"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_android"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Android Version"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_company"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Company Name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_name"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter user name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_password"
+
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:hint="password"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="21sp"
+        android:text="Add"
+        android:textColor="@color/colorButtonText"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+       android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Counter</string>
+    <string name="tv_android">Android Version</string>
+    <string name="tv_company">Company</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_name">Name</string>
+</resources>
